@@ -13,11 +13,11 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
-	rfservice "github.com/spotahome/redis-operator/operator/redisfailover/service"
-	"github.com/spotahome/redis-operator/service/k8s"
-	"github.com/spotahome/redis-operator/service/redis"
+	"redis-operator/log"
+	"redis-operator/metrics"
+	rfservice "redis-operator/operator/redisfailover/service"
+	"redis-operator/service/k8s"
+	"redis-operator/service/redis"
 )
 
 const (

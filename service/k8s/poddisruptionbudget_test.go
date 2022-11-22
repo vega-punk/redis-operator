@@ -13,9 +13,9 @@ import (
 	kubernetes "k8s.io/client-go/kubernetes/fake"
 	kubetesting "k8s.io/client-go/testing"
 
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
-	"github.com/spotahome/redis-operator/service/k8s"
+	"redis-operator/log"
+	"redis-operator/metrics"
+	"redis-operator/service/k8s"
 )
 
 var podDisruptionBudgetsGroup = schema.GroupVersionResource{Group: "policy", Version: "v1", Resource: "poddisruptionbudgets"}

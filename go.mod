@@ -1,4 +1,4 @@
-module github.com/spotahome/redis-operator
+module redis-operator
 
 go 1.19
 
